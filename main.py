@@ -107,7 +107,7 @@ while not game_over:
     pygame.display.update()
     fps.tick(snake_speed)
 
-gameOvermsg("Миша ЛОХ!!!", messageFall)
+gameOvermsg("Вы ЛОХ!!!", messageFall)
 pygame.display.update()
 time.sleep(3)
 pygame.quit()
